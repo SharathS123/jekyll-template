@@ -1,10 +1,10 @@
-h1 {
+h1.display-5 {
   font-family: Roboto;
   text-align: center;
   font-size: 56px;
   color: white;
 }
-h2{
+h2.display-8 {
   font-size: 28px;
   color:white;
   font-family: Roboto;
@@ -37,14 +37,11 @@ h2{
   height: 1079px;
   object-fit: contain;
   background-image: url("../../img/banner.jpg") ;
-//  background-repeat: no-repeat; 
+ 
  background-size: cover;
  display : flex;
   justify-content: center;
-  // .middle{
-  //   text-align: center;
-
-  // }
+  
   flex-direction: column;
 
 }
@@ -86,31 +83,39 @@ width: 100%;
 
 }
 .layer7{
- width: 100%;
+  width: 100%;
   height: 416.5px;
   background-color: #212a37;
 
 }
 .layer7-img
 {
-   width: 46px;
+  width: 46px;
   height: 44px;
   object-fit: contain;
   background-color:white;
   margin-left: 502px;
-  //margin-top: 70.9px;  
+    
 }
 .layer8
 {
   width: 100%;
   height: 369px;
   object-fit: contain;
- // background-color: red;
+ 
   background-image: url("../../img/insights_bg.jpg")
 }
 
-.img1
+.image1
 {
-position: relative;
-//margin-top: 100%;
+  bottom:-10 px;
+
+}
+.image2-mock-2
+{
+  width: 1057px;
+  height: 528.6px;
+  background-image: url("../../img/mock_two.png");
+
+
 }
