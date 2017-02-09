@@ -5,18 +5,21 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 
-
 <body>
   {% include head.html title=page.title %}
+ 
+  
+ <div class="container">
   {% include header.html %}
-  <div class="layer0">
-    <section class="middle">
-      <h1 class="display-5">{{ page.headline }}</h1>
-      <h2 class="display-8">{{ page.second-headline }}</h2>
-      
+   <div class="layer0"> 
+     <section class="middle">
+       <h1 class="display-5">{{ page.headline }}</h1>
+       <h2 class="display-8">{{ page.second-headline }}</h2>
       <img class ="image1" src="../../img/mock_01.png" width="600px" height="429px">
-    </section>
+     </section>
+   </div>
   </div>
+  
   <div class="layer1">
     <div class="image2-mock-2">
         
