@@ -48,22 +48,40 @@ li {
 }
 
 
-  .image1{
-     height:429px;
-     width:80%; 
-     align-self: center;
-     margin-top: 380px;  
-  }
+  
 
 .trail
 {
+  position: relative;
   width: 200px;
-  height: 60.4px;
+  height: 40.4px;
   border-radius: 30.2px;
   background-color: #1ea2ff;
   //margin-left: 500px;
   align-self: center;
+  display: flex;
+  
 
+}
+.image1{
+     top: 170px;
+    height: 429px;
+    width: 80%;
+    align-self: center;
+    position: relative;
+
+  }
+.data
+{
+
+  //position: relative;
+    top: 100px;
+    justify-content: column;
+    align-self: center;
+    font-size: 40px;
+    position: relative;
+    bottom: inherit;
+    color: white;
 }
 .section1-secondline
 {
