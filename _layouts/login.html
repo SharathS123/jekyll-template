@@ -1,0 +1,26 @@
+--- 
+# 3 dashes above and below are needed 
+# so that jekyll can process the files 
+---
+<html lang="en-gb">
+  <body>
+    {% include head.html %}
+     <div class="outer-container">
+       <div class="logo">
+         <img src="../../img/logo_02.png">
+         <h1 class="login-heading">Login To MoM </h1>
+       </div>
+       <div class="email-input">
+         <p>{{ page.email }}</p>
+         <input class="email-box"></input>
+       </div> 
+       <div class="password-input">
+         <p>{{ page.password }}</p>
+         <input class="password-box"></input>
+       </div>
+       <button class="login-button">{{ page.login1 }}</button>
+          
+     </div>
+
+  </body>
+</html>
